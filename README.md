@@ -1,14 +1,15 @@
-# scripts
+# SCRIPTS
 
-Bonjour.<br>
+<b>Bonjour.</b><br>
 This repo contains scripts I've written to make my life easier.<br>
 
-## table of contents
+## 🔎 index 🔍
 Scripts listed below are usable. scripts in the repo, but not listed are being worked on.
-- flask-heroku api template
+- [flask-heroku api template]()
 
 > scripts in the repo, but not listed are being developed
 
-## my laziness 😴
-###flask-heroku api template
+## 😴 laziness 😴
+The result of my laziness. Enjoy.
+### flask-heroku api template
  
