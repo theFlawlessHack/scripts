@@ -5,7 +5,7 @@ Scripts listed in the index are usable. Scripts found in the repo, but not liste
 
 ## index 🔍
 [flask-heroku api template](https://github.com/theFlawlessHack/scripts/blob/master/README.md#flask-heroku-api-template)
-
+[scripts template](https://github.com/theFlawlessHack/scripts/blob/master/README.md#scripts-template)
 ## laziness 😴
 The result of my laziness. Enjoy.
 
@@ -14,3 +14,6 @@ The result of my laziness. Enjoy.
 - Creates the required setup files for running the api on heroku.<br>
 - Perfect for hackathons 
 - Allows developers to focus on writing their backend and not required setup files
+
+#### scripts template
+- Creates a folder of 14 script templates
