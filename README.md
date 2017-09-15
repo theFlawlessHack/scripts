@@ -4,8 +4,9 @@
 Scripts listed in the index are usable. Scripts found in the repo, but not listed there are still being worked on.
 
 ## index 🔍
-[flask-heroku api template](https://github.com/theFlawlessHack/scripts/blob/master/README.md#flask-heroku-api-template)
+[flask-heroku api template](https://github.com/theFlawlessHack/scripts/blob/master/README.md#flask-heroku-api-template)<br>
 [scripts template](https://github.com/theFlawlessHack/scripts/blob/master/README.md#scripts-template)
+
 ## laziness 😴
 The result of my laziness. Enjoy.
 
