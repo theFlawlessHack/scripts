@@ -1,7 +1,7 @@
 # SCRIPTS
 
 <b>Bonjour.</b> This repo contains scripts I've written to make my life easier.<br>
-Scripts listed in the index are usable. Scripts found in the repo, but not listed there are still being worked on.
+Scripts listed in the index are usable.
 
 ## index 🔍
 [flask-heroku api template](https://github.com/theFlawlessHack/scripts/blob/master/README.md#flask-heroku-api-template)<br>
@@ -17,4 +17,7 @@ The result of my laziness. Enjoy.
 - Allows developers to focus on writing their backend and not required setup files
 
 #### scripts template
-- Creates a folder of 14 script templates
+- Creates a folder of 2 weeks worth of video script templates
+
+#### website template
+- Creates a basic website template based on theflawlessshack website
