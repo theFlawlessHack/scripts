@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ##
 # Pickle Laptop
@@ -19,43 +19,42 @@ spacer() {
 
 ## Install Methods
 git() {
-	spacer()
+	spacer
 	echo "Installing Git"
 	brew install git
 }
 
 git_verify() {
-	echo "\n"
+	echo ""
 	echo "Would you like to verify the git version? Y/N"
 }
 
 homebrew() {
-	spacer()
+	spacer
 	echo "Installing Homebrew"
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 }
 
 vapor() {
-	spacer()
+	spacer
 	echo "Installing vapor"
 	brew install vapor/tap/vapor
 }
 
 xcode() {
-	spacer()
+	spacer
 	echo "Install the latest version of Xcode 🔨 from the App Store"
-	echo "Have you started the download? Y/N"
+    echo "Have you started the download? Y/N"
 }
 
-## MAIN
 main() {
 
-	echo -e "!!!!!!!STARTING UP THE PICKLE POTATO MACHINE!!!!!!!"
-	xcode()
-	homebrew()
-	vapor()
-	git()
-	git_verify()
+	echo "!!!!!!!STARTING UP THE PICKLE POTATO MACHINE!!!!!!!"
+	xcode
+	homebrew
+	vapor
+	git
+	git_verify
 }
 
 main "$@"
