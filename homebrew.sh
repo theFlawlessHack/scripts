@@ -1,5 +1,3 @@
-#!usr/bin/env bash
-
 ##### ☕️
 # Install Homebrew
 # A script designed to install the missing packgae manager, Homebrew
