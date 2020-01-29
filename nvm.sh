@@ -1,11 +1,13 @@
 #!usr/bin/env bash
 
-## Install NVM
+##### 🍣
+# Install NVM 
 # A script designed to install the node version manager (NVM)
 #
 # Copyright JESSICA JEAN JOSEPH © 2020
 # All Rights Reservered.
-##
+##### 🍣
+
 echo "Installing NVM"
 
 # remove dupes
