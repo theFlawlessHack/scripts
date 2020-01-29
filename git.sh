@@ -1,5 +1,3 @@
-#!usr/bin/env bash
-
 ##### 🥑
 # Install Git
 # A script designed to install the source control tool, Git

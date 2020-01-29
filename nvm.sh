@@ -1,5 +1,3 @@
-#!usr/bin/env bash
-
 ##### 🍣
 # Install NVM 
 # A script designed to install the node version manager (NVM)
