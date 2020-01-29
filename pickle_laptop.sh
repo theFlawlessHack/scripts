@@ -42,37 +42,6 @@ homebrew() {
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 }
 
-node() {
-	nvm
-	spacer
-	echo "Installing Node and NPM"
-	nvm install node
-	nvm exec node
-	nvm use node
-}
-
-nvm() {
-	spacer
-	echo "Installing NVM"
-
-	# remove dupes
-	rm -rf ~/.nvm
-	
-	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
-
-	export NVM_DIR="$HOME/.nvm"
-	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-	source ~/.nvm/nvm.sh
-}
-
-vapor() {
-	spacer
-	echo "Installing Vapor"
-	brew install vapor/tap/vapor
-}
-
 xcode() {
 	spacer
 	echo "Install the latest version of Xcode 🔨 from the App Store"
@@ -87,7 +56,11 @@ main() {
 	vapor
 	git
 	git_verify
-	angular
+	
+	chmod 755 nvm.sh node.sh
+	./nvm.sh
+	./node.sh
+	
 }
 
 main "$@"
